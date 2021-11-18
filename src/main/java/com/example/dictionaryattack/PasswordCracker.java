@@ -21,9 +21,9 @@ public class PasswordCracker {
 	public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
 		String wordlist = "passwords.txt";
 
-		String hashtocrack = "9a69e50114a30c4c5c1d455a2cfb87d1";
+		String hashtocrack = "21232f297a57a5a743894a0e4a801fc3";
 		// BruteForce Attack: Load hash to crack and try all combinations
-
+		// admin - 21232f297a57a5a743894a0e4a801fc3
 		// root@123 - 9a69e50114a30c4c5c1d455a2cfb87d1
 
 		String algorithm = "MD5";

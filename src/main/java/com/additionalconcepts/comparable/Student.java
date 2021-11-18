@@ -12,11 +12,21 @@ class Student implements Comparable<Student> {
 	}
 
 	
+//	@Override
+//	public int compareTo(Student st) {
+//		if (rollno == st.rollno && age == st.age  )
+//			return 0;
+//		else if ( rollno > st.rollno && age > st.age)
+//			return 1;
+//		else
+//			return -1;
+//	}
+	
 	@Override
 	public int compareTo(Student st) {
-		if (age == st.age)
+		if (age == st.age  )
 			return 0;
-		else if (age > st.age)
+		else if ( age > st.age)
 			return 1;
 		else
 			return -1;
